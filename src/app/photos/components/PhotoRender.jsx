@@ -107,7 +107,7 @@ const PhotoRender = () => {
           <div
             onClick={() => openLightbox(index)}
             key={item.id}
-            className=" relative group group h-[400px] sm:w-[300px] sm:h-[400px] md:w-full md:h-[296px]  lg:w-full lg:h-[500px] cursor-pointer overflow-hidden"
+            className=" relative  group h-[400px] sm:w-[300px] sm:h-[400px] md:w-full md:h-[296px]  lg:w-full lg:h-[500px] cursor-pointer overflow-hidden"
           >
             <Image
               src={item.image}
@@ -170,13 +170,15 @@ const PhotoRender = () => {
             iconPrev: () => <HiChevronLeft className="w-10 h-10 sm:w-10 sm:h-10 lg:w-[70px] lg:h-[70px] text-white" />,
             iconNext: () => <HiChevronRight className="w-10 h-10 sm:w-10 sm:h-10  lg:w-[70px] lg:h-[70px] text-white"  />,
             iconClose: () => <HiXMark className="w-10 h-10 sm:w-10 sm:h-10  lg:w-[70px] lg:h-[70px] text-white"/>
-          }}
-           styles={{ container: { backgroundColor: "rgba(0, 0, 0, 0.5)" } }}
-         
+          }}   
+          styles={{
+            container: "  flex justify-center items-center",
+            image: "max-h-[300px] max-w-[800px]",
+            closeButton: "absolute top-4 right-4 text-white  cursor-pointer",
+            navigationButton: " text-xl",
+          }}     
           
         />
-
-      
       )}
     
     </div>
