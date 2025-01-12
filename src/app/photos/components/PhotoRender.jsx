@@ -107,7 +107,7 @@ const PhotoRender = () => {
           <div
             onClick={() => openLightbox(index)}
             key={item.id}
-            className=" relative group group h-[400px] sm:w-[300px] sm:h-[400px] md:w-full md:h-[296px]  lg:w-full lg:h-[500px] cursor-pointer overflow-hidden"
+            className=" relative  group h-[400px] sm:w-[300px] sm:h-[400px] md:w-full md:h-[296px]  lg:w-full lg:h-[500px] cursor-pointer overflow-hidden"
           >
             <Image
               src={item.image}
