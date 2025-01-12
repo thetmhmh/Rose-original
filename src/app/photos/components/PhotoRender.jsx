@@ -171,7 +171,7 @@ const PhotoRender = () => {
             iconNext: () => <HiChevronRight className="w-10 h-10 sm:w-10 sm:h-10  lg:w-[70px] lg:h-[70px] text-white"  />,
             iconClose: () => <HiXMark className="w-10 h-10 sm:w-10 sm:h-10  lg:w-[70px] lg:h-[70px] text-white"/>
           }}
-          styles={{ container: { backgroundColor: "rgba(0, 0, 0, 0.5)" } }}
+           styles={{ container: { backgroundColor: "rgba(0, 0, 0, 0.5)" } }}
          
           
         />
