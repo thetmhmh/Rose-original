@@ -5,9 +5,9 @@
 @tailwind utilities;
 
  
-.yarl__container {
-    background-color: rgba(0, 0, 0, 0.5) !important; /* Transparent background */
-}
+/* .yarl__container {
+    background-color: rgba(0, 0, 0, 0.5) !important; 
+} */
 .yarl__no_scroll {
     height: 100% !important;
     overflow:scroll !important;
@@ -18,7 +18,7 @@
     }
 
 .yarl__slide_image{
-    width: 711px !important;
+  
     height: 827px !important;
     object-fit: cover !important;
     object-position: top;
@@ -78,7 +78,7 @@
         }
 
     .yarl__slide_image{
-        width: 448px !important;
+       
         height: 547px !important;
         object-fit: cover !important;
         object-position: top;
@@ -107,7 +107,7 @@
         }
 
     .yarl__slide_image{
-        width: 448px !important;
+        
         height: 547px !important;
         object-fit: cover !important;
         object-position: top;
@@ -134,7 +134,7 @@
             }
     
         .yarl__slide_image{
-            width: 711px !important;
+            
             height: 827px !important;
             object-fit: cover !important;
             object-position: top;
@@ -162,7 +162,7 @@
         }
 
     .yarl__slide_image{
-        width: 711px !important;
+        
         height: 827px !important;
         object-fit: cover !important;
         object-position: top;
